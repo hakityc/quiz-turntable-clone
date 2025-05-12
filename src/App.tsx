@@ -152,24 +152,24 @@ function TurntablePage() {
       img: "/2025/0cfe4402-b743-463d-b3c3-05af16140905.png",
     },
     {
-      name: "表情",
+      name: "NEW Original Galaxy A15",
       img: "/2025/1fc43174-ef12-484e-a95a-f02e3a0bfa4c.png",
     },
     {
-      name: "NEW Original Galaxy S24+",
-      img: "/2025/0100030e-df7e-4ce0-8b5b-1496a638a201.png",
-    },
-    {
-      name: "Samsung Galaxy S24",
+      name: "QWQ",
       img: "/2025/03be0bb9-e90f-45ca-a884-49716565d1a3.png",
     },
     {
-      name: "按钮",
-      img: "/2025/6fd1de19-ae35-4047-8101-32b15bd9d770.png",
+      name: "NEW Original Galaxy S24+",
+      img: "/2025/d5e8081f-ae48-4f2c-a06e-76490417f446.png",
     },
     {
-      name: "5 V car monsters",
-      img: "/2025/7f3e5289-7bb1-4cc6-9dd2-2896b3a04ca2.png",
+      name: "NEW Original Galaxy S24",
+      img: "/2025/0100030e-df7e-4ce0-8b5b-1496a638a201.png",
+    },
+    {
+      name: "Samsung Galaxy Z Fold5",
+      img: "/2025/815f11b2-8814-43ea-bbe0-95927a66cda3.png",
     },
   ];
 
@@ -293,25 +293,25 @@ function TurntablePage() {
       />
       <div style={{ zIndex: 1, marginTop: 74, position: "relative" }}>
         {/* 指针/箭头固定顶部覆盖 */}
-        {/* <img
+        <img
           src={POINTER_IMG}
           alt="pointer"
           style={{
             position: 'absolute',
             left: '50%',
-            top: '-38px',
+            top: '62%',
             transform: 'translateX(-50%)',
             zIndex: 11,
-            width: 81,
+            width: '100%',
             height: 65,
             pointerEvents: 'none',
             userSelect: 'none',
           }}
-        /> */}
+        />
         <div
           style={{
-            background: "url(https://ext.same-assets.com/3391139806/4233627671.png) no-repeat center/90%",
-            width: 450,
+            background: "url(https://ext.same-assets.com/3391139806/4233627671.png) no-repeat center/100%",
+            width: "100%",
             height: 520,
             position: "relative",
             marginBottom: 140,
@@ -451,7 +451,6 @@ function TurntablePage() {
         {/* 底部声明栏 */}
         <div
           style={{
-            marginTop: 18,
             width: 420,
             maxWidth: "92vw",
             color: "#fff8",
@@ -460,6 +459,7 @@ function TurntablePage() {
             fontSize: 16,
             textAlign: "center",
             padding: "13px 8px",
+            margin: '0 auto',
           }}
         >
           Esta página não faz parte ou está relacionada ao Kwai ou a Kuaishou Technology. Além disso, este site NÃO é endossado pelo Kwai de forma alguma.
